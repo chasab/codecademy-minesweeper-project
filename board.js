@@ -7,7 +7,7 @@ export class Board {
 }
 
   get playerBoard() {
-    return this.playerBoard;
+    return this._playerBoard;
   }
 
   flipTile(rowIndex, columnIndex) {
@@ -87,8 +87,6 @@ print() {
           board[randomRowIndex][randomColumnIndex] = 'B';
           numberOfBombsPlaced++;
         }
-        board[randomRowIndex][randomColumnIndex] ='B';
-        numberOfBombsPlaced++;
       }
       return board;
       }
