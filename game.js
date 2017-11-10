@@ -1,4 +1,3 @@
-
 // To play Minesweeper, we will create instances of MineSweeperGame in command line.
 // For example:
 // In the command line, navigate to the lib directory and run `node`
